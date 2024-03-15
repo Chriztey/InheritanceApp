@@ -1,6 +1,6 @@
 package com.chris.inheritanceapp
 
-class Secondary : BaseClass() {
+open class Secondary : BaseClass() {
 
     override fun role() {
         super.role()
